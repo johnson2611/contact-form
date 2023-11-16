@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  /*background-color:rgb(39, 28, 28);*/
+  background-size:contain;
+  font-family: sans-serif;
+  background: linear-gradient(rgba(11, 11, 11, 0.6), rgba(10, 10, 10, 0.6)),
+    url("../img/bg2.jpg");
+  background-position: center;
+  position: relative;
+}
+.contact-title {
+  margin-top: 100px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 32px;
+  line-height: 10px;
+  transition: all 3s ease-in-out;
+}
+.contact-title h2 {
+  font-size: 16px;
+}
+
+.form-control {
+  width: 480px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ffffff;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+input {
+  height: 45px;
+}
+form .submit {
+  border-radius: 20px;
+  background: rgb(39, 28, 28);
+  border-color: transparent;
+  color: #fff;
+  border: 2px solid #ffff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+  transition: all 0.3s linear;
+}
+form .submit:hover {
+  background-color: blue;
+  cursor: pointer;
+  /*transform: scale(1.2, 1.2)*/
+}
+
+/* @media screen and (width < 750px) {
+  .container {
+      padding: 8rem 4rem 8rem 7rem;
+    }
+} */
